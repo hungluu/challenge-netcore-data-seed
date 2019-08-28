@@ -1,0 +1,32 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp2.2</TargetFramework>
+    <Authors>Hung Luu</Authors>
+    <Company>Hung Luu</Company>
+    <Product>datagen</Product>
+    <PackageId>datagen</PackageId>
+    <Version>1.2.0-beta</Version>
+    <Description>Generate data seed file for JSON, XML, CSV, ...</Description>
+    <Copyright>Copyright © Hung Luu 2019</Copyright>
+    <GeneratePackageOnBuild>false</GeneratePackageOnBuild>
+    <AssemblyName>datagen</AssemblyName>
+    <RootNamespace>DataGen.App</RootNamespace>
+    <ApplicationIcon>datagen.ico</ApplicationIcon>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Autofac.Extensions.DependencyInjection" Version="4.4.0" />
+    <PackageReference Include="AutoMapper.Extensions.Microsoft.DependencyInjection" Version="6.1.0" />
+    <PackageReference Include="CommandLineParser" Version="2.5.0" />
+    <PackageReference Include="Goblinfactory.Konsole.ProgressBar.Core" Version="1.0.2" />
+    <PackageReference Include="Microsoft.Extensions.DependencyInjection" Version="2.2.0" />
+    <PackageReference Include="Microsoft.Packaging.Tools.Trimming" Version="1.1.0-preview1-26619-01" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\DataGen.Business\DataGen.Business.csproj" />
+  </ItemGroup>
+
+</Project>

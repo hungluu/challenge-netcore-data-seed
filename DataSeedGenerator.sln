@@ -1,0 +1,57 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.28803.352
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DataGen", "DataGen", "{839E47AB-09B5-4F22-ADEA-ACB6EDE03B14}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "scripts", "scripts", "{E971D921-FE2B-47E0-865A-B15B2DE0FC5F}"
+	ProjectSection(SolutionItems) = preProject
+		scripts\release.bat = scripts\release.bat
+		scripts\release3.bat = scripts\release3.bat
+		scripts\test.bat = scripts\test.bat
+		scripts\warp-packer.exe = scripts\warp-packer.exe
+	EndProjectSection
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DataGen.App", "DataGen\DataGen.App\DataGen.App.csproj", "{275767AD-2ED6-4A09-937E-458A91CE4FDB}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DataGen.Business", "DataGen\DataGen.Business\DataGen.Business.csproj", "{DBEFE0E9-64E3-43E5-9FA9-C679A76C7357}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DataGen.Business.Tests", "DataGen\DataGen.Business.Tests\DataGen.Business.Tests.csproj", "{26C352DA-F70F-44F0-85CF-4BB12A1B1BA6}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Assets", "Assets", "{9202E6A1-4C87-4831-A530-E78AA8625F99}"
+	ProjectSection(SolutionItems) = preProject
+		Assets\datagen.ico = Assets\datagen.ico
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{275767AD-2ED6-4A09-937E-458A91CE4FDB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{275767AD-2ED6-4A09-937E-458A91CE4FDB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{275767AD-2ED6-4A09-937E-458A91CE4FDB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{275767AD-2ED6-4A09-937E-458A91CE4FDB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DBEFE0E9-64E3-43E5-9FA9-C679A76C7357}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DBEFE0E9-64E3-43E5-9FA9-C679A76C7357}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DBEFE0E9-64E3-43E5-9FA9-C679A76C7357}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DBEFE0E9-64E3-43E5-9FA9-C679A76C7357}.Release|Any CPU.Build.0 = Release|Any CPU
+		{26C352DA-F70F-44F0-85CF-4BB12A1B1BA6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{26C352DA-F70F-44F0-85CF-4BB12A1B1BA6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{26C352DA-F70F-44F0-85CF-4BB12A1B1BA6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{26C352DA-F70F-44F0-85CF-4BB12A1B1BA6}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{275767AD-2ED6-4A09-937E-458A91CE4FDB} = {839E47AB-09B5-4F22-ADEA-ACB6EDE03B14}
+		{DBEFE0E9-64E3-43E5-9FA9-C679A76C7357} = {839E47AB-09B5-4F22-ADEA-ACB6EDE03B14}
+		{26C352DA-F70F-44F0-85CF-4BB12A1B1BA6} = {839E47AB-09B5-4F22-ADEA-ACB6EDE03B14}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {27440B03-6257-4C49-8E6E-9BC455F0A222}
+	EndGlobalSection
+EndGlobal

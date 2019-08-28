@@ -1,0 +1,9 @@
+{
+  "profiles": {
+    "DataGen.App": {
+      "commandName": "Project",
+      "commandLineArgs": "sample.json",
+      "workingDirectory": "..\\..\\Releases"
+    }
+  }
+}

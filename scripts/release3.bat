@@ -1,0 +1,1 @@
+dotnet publish "DataGen/DataGen.App" -c Release -r win10-x64 /p:PublishSingleFile=true /p:TrimUnusedDependencies=true -o "Releases/datagen3"

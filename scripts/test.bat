@@ -1,0 +1,1 @@
+dotnet test DataGen/DataGen.Business.Tests
